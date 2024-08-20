@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+    <Name value="kreed_EnemyHealth" />
+    <DisplayName value="kreedEnemyHealth" />
+    <Version value="1.1.0" />
+    <Description value="Display the enemies health." />
+    <Author value="kreed" />
+   	<Website value="https://nexus.kreedy.net"/>
+</xml>
+
+
+
+
+
+

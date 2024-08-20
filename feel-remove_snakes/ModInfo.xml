@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Feel_Remove_Snakes" />
+	<DisplayName value="Feel - Remove Snakes" />
+	<Description value="Remove snakes from the game." /> 
+	<Version value="1.0.1" /> <!-- GAME.GAME.MOD -->
+	<Author value="FEEL" />
+	<Website value="https://next.nexusmods.com/profile/GeoffreyRuis/" />
+</xml>

@@ -1,0 +1,26 @@
+<configs>
+	<set xpath="/blocks/block[@name='sleeperSnakeAnimal']">
+		<property name="Extends" value="sleeperSit" param1="MultiBlockDim"/>
+		<property name="DescriptionKey" value="sleeperAnimalDesc"/>
+		<property name="LookIdentity" value="0,0,1"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Animals/CHICKEN/sleeperPose/idleSleepChickenPrefab"/>
+		<property name="ModelOffset" value="0,0,0"/>
+		<property name="WaterFlow" value="permitted"/>
+		<property name="SpawnGroup" value="ChickenGroup"/>
+		<property name="SortOrder1" value="LD02"/>
+		<property name="SortOrder2" value="0011"/>
+	</set>
+	<set xpath="/blocks/block[@name='infestedSleeperSnakeAnimal']">
+		<property name="Extends" value="sleeperSit" param1="MultiBlockDim"/>
+		<property name="DescriptionKey" value="sleeperAnimalDesc"/>
+		<property name="LookIdentity" value="0,0,1"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Animals/CHICKEN/sleeperPose/idleSleepChickenPrefab"/>
+		<property name="ModelOffset" value="0,0,0"/>
+		<property name="WaterFlow" value="permitted"/>
+		<property name="SpawnGroup" value="ChickenGroup"/>
+		<property name="SortOrder1" value="LD02"/>
+		<property name="SortOrder2" value="0011"/>
+	</set>
+</configs>

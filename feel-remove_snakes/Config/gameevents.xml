@@ -1,0 +1,34 @@
+<configs>
+	<remove xpath="/gameevents/action_sequence[@name='spawn_snake']"/>
+	<remove xpath="/gameevents/action_sequence[@name='group_snakes']"/>
+	<remove xpath="/gameevents/action_sequence[@name='event_snakes']"/>
+	
+	<append xpath="/gameevents">
+		<action_sequence name="spawn_snake" template="spawn_triple">
+			<variable name="zombiename" value="animalChickenHostile" />
+			<variable name="alertsound" value="Animals/Chicken/chickenpain" />
+			<variable name="gamestage1" value="55" />
+			<variable name="gamestage2" value="125" />
+		</action_sequence>
+		
+		<action_sequence name="group_snakes" template="spawn_triple">
+			<variable name="zombiename" value="animalChickenHostile" />
+			<variable name="spawncount" value="5" />
+			<variable name="alertsound" value="Animals/Chicken/chickenpain" />
+			<variable name="gamestage_extra1" value="55" />
+			<variable name="spawncount_extra1" value="2" />
+			<variable name="gamestage_extra2" value="155" />
+			<variable name="spawncount_extra2" value="3" />
+		</action_sequence>
+	
+		<action_sequence name="event_snakes" template="spawn_group_event">
+			<variable name="zombiename" value="animalChickenHostile" />
+			<variable name="spawncount" value="5" />
+			<variable name="alertsound" value="Animals/Chicken/chickenpain" />
+			<variable name="gamestage_extra1" value="55" />
+			<variable name="spawncount_extra1" value="2" />
+			<variable name="gamestage_extra2" value="155" />
+			<variable name="spawncount_extra2" value="3" />
+		</action_sequence>
+    </append>
+</configs>

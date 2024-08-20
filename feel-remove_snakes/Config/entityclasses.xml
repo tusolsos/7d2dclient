@@ -1,0 +1,5 @@
+<configs>
+    <set xpath="/entity_classes/entity_class[@name='animalSnake']/effect_group[@name='Base Effects']">
+        <passive_effect name="HealthMax" operation="base_set" value="-1"/>
+    </set>
+</configs>
